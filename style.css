@@ -1,0 +1,101 @@
+@font-face {
+    font-family: "inter";
+    src: url(fonts/Inter-Regular.ttf);
+}
+
+html, body {
+    background-color: #DEDEDE;
+    font-family: "inter";
+}
+
+
+.registration {
+    width: 383px;
+    height: 515px;
+    background-color: #414141;
+    border: 2px dashed #FFD43A;
+    border-radius: 4px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.first-name {
+    margin-top: 30px;
+}
+
+.mobile-number {
+    margin-top: 10px;
+}
+
+.password {
+    margin-top: 10px;
+}
+
+.bio {
+    margin-top: 10px;
+}
+
+label {
+    color: #DEDEDE;
+    font-weight: 700;
+    font-size: 16px;
+}
+
+input {
+    width: 315px;
+    height: 45px;
+    background-color: #A9A9A9;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    outline: none;
+    margin-top: 5px;
+    padding: 0 10px;
+}
+
+input[type=password] {
+    width: 315px;
+    height: 45px;
+    background-color: #A9A9A9;
+    border: 1px solid #FF0000;
+    border-radius: 4px;
+    color: red;
+}
+
+input[type=password]::placeholder {
+    color: #FF0000;
+}
+
+::placeholder {
+    color: #FFD43A;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+textarea {
+    background-color: #A9A9A9;
+    border: 1px solid #E0E0E0;
+    border-radius: 4px;
+    padding: 5px 10px;
+    margin-top: 5px;
+    outline: none;
+}
+
+button {
+    width: 335px;
+    height: 45px;
+    background-color: #FFD43A;
+    color: #000000;
+    font-family: "inter";
+    font-size: 15px;
+    font-weight: 700;
+    border: hidden;
+    border-radius: 10px;
+    outline: none;
+    margin-top: 20px;
+    cursor: pointer;
+}
